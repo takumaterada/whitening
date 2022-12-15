@@ -1,19 +1,28 @@
 .c-media {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 16px;
+}
+
+.c-media__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
   @include mq("tab") {
+    max-width: 540px;
     flex-direction: column-reverse;
+    margin-top: unset;
+    margin: 0 auto;
   }
 }
 
 .c-media__text-area {
   margin-right: 16px;
   @include mq("tab") {
+    max-width: 540px;
+    width: 100%;
     margin-right: unset;
+    margin: 56px auto 0;
   }
 }
 
@@ -46,6 +55,11 @@
 
 .c-media__img-group {
   display: flex;
+  @include mq("tab") {
+    justify-content: space-around;
+    margin-top: 52px;
+    margin-right: unset;
+  }
 }
 
 .c-media__wrapper {

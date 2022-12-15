@@ -1,10 +1,10 @@
 .c-guide {
   padding: 164px 16px;
   @include mq("tab") {
-    padding: 124px 16px 40px;
+    padding: 124px 0px 40px;
   }
   @include mq("sp") {
-    padding: 124px 16px 0;
+    padding: 124px 0px 0;
   }
 }
 
@@ -28,23 +28,27 @@
   display: flex;
   justify-content: center;
   margin-top: 68px;
+  width: 100%;
+  max-height: 500px;
+  height: 100%;
 }
 
 .c-guide__wrapper.--left {
-  max-width: 720px;
-  min-width: 450px;
+  max-width: 50%;
+  min-width: 50%;
   width: 100%;
-  @include mq("sp") {
+  height: inherit;
+  @include mq("tab") {
     min-width: unset;
+    max-width: unset;
   }
 }
 
 .c-guide__wrapper.--right {
-  max-width: 720px;
-  min-width: 540px;
-  width: 100%;
-  @include mq("sp") {
+  height: 50%;
+  @include mq("tab") {
     min-width: unset;
+    max-width: unset;
   }
 }
 
@@ -53,6 +57,9 @@
 }
 
 .c-guide__img-culmn {
+  max-width: 50%;
+  min-width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   @include mq("tab") {
@@ -71,6 +78,7 @@
 
 .c-guide__info {
   margin-top: 52px;
+  padding: 0 16px;
   @include mq("tab") {
     margin-top: 32px;
   }

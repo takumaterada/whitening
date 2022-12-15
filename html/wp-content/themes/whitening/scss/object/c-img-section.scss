@@ -47,11 +47,13 @@
   display: flex;
   justify-content: end;
   color: #000000;
+  @include mq("tab") {
+    font-size: 36px;
+    justify-content: unset;
+    text-shadow: 1px 1px 1px white;
+  }
   @include mq("sp") {
     font-size: 24px;
-    justify-content: unset;
-    line-height: 1.8;
-    text-shadow: 1px 1px 1px white;
   }
 }
 
@@ -74,13 +76,11 @@
 }
 
 .c-img-section__note {
+  padding-bottom: 12px;
   font-size: 12px;
   font-weight: bold;
   color: white;
   max-width: 1440px;
   margin: 0 auto;
-  text-align: end;
-  @include mq("sp") {
-    text-align: justify;
-  }
+  text-align: justify;
 }

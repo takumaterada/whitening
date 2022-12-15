@@ -37,19 +37,24 @@
   margin-right: 16px;
   @include mq("tab") {
     justify-content: space-around;
-    margin-top: 52px;
+    max-width: 540px;
+    margin-right: unset;
+    margin: 52px auto 0;
   }
 }
 
 .c-home__wrapper {
   max-width: 300px;
   width: 100%;
+  @include mq("sp") {
+    max-width: 185px;
+  }
 }
 
 .c-home__wrapper.--right {
   margin-top: 120px;
   margin-left: 32px;
-  @include mq("sp") {
+  @include mq("tab") {
     margin-top: 60px;
   }
 }
@@ -61,6 +66,12 @@
 .c-home__text-area {
   margin-top: 80px;
   position: relative;
+  @include mq("tab") {
+    max-width: 540px;
+    width: 100%;
+    margin-right: unset;
+    margin: 56px auto 0;
+  }
 }
 
 .c-home__bg-text {
@@ -74,7 +85,7 @@
   text-align: end;
   line-height: 1.5;
   @include mq("tab") {
-    font-size: 80px;
+    font-size: 100px;
     top: 20%;
     right: 12%;
   }
@@ -93,6 +104,13 @@
   position: relative;
   z-index: 1;
   @include mq("tab") {
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 2.2;
+  }
+  @include mq("sp") {
     max-width: 360px;
     width: 100%;
     margin: 0 auto;
@@ -114,6 +132,13 @@
   position: relative;
   z-index: 1;
   @include mq("tab") {
+    max-width: 540px;
+    width: 100%;
+    margin: 32px auto 0;
+    font-size: 20px;
+    line-height: 2.2;
+  }
+  @include mq("sp") {
     max-width: 360px;
     width: 100%;
     margin: 32px auto 0;
@@ -131,6 +156,13 @@
   position: relative;
   z-index: 1;
   @include mq("tab") {
+    max-width: 540px;
+    width: 100%;
+    margin: 32px auto 0;
+    font-size: 24px;
+    line-height: 2.2;
+  }
+  @include mq("sp") {
     max-width: 360px;
     width: 100%;
     margin: 32px auto 0;
@@ -167,6 +199,7 @@
 }
 
 .c-home__note {
+  padding-bottom: 12px;
   font-size: 12px;
   text-align: end;
   position: relative;
