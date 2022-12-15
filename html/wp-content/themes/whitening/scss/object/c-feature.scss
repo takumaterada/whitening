@@ -1,0 +1,83 @@
+.c-feature {
+  margin-top: 132px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-feature__title {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.c-feature__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 108px;
+}
+
+.c-feature__container.--bottom {
+  margin-top: 72px;
+}
+
+.c-feature__card {
+  max-width: 280px;
+  min-width: 280px;
+  min-height: 240px;
+  background-color: white;
+  border: solid 1px #d09c33;
+  position: relative;
+  padding: 16px;
+}
+
+.c-feature__card-circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  background-color: #d09c33;
+  font-size: 24px;
+  margin-left: 20px;
+  position: absolute;
+  top: -16%;
+  left: 28%;
+}
+
+.c-feature__card-check {
+  content: "";
+  width: 40px;
+  height: 20px;
+  border-left: 8px solid white;
+  border-bottom: 8px solid white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.c-feature__card-content {
+  max-width: 180px;
+  width: 100%;
+  min-height: 240px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-feature__card-text {
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.c-feature__card.--hidden {
+  visibility: hidden;
+}

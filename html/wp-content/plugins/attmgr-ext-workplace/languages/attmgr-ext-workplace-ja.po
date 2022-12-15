@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ATTMGR Extension: Workplace\n"
+"POT-Creation-Date: 2017-06-14 10:09+0900\n"
+"PO-Revision-Date: 2017-06-14 10:09+0900\n"
+"Last-Translator: tnomi <tnomi@sukimalab.com>\n"
+"Language-Team: Attendance Manager\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class/class-workplace.php:140 class/class-workplace.php:141
+#: class/class-workplace.php:142
+msgid "Shop"
+msgstr "店舗"
+
+#: class/class-workplace.php:348 class/class-workplace.php:499
+msgid "There are no staff."
+msgstr "セラピストが未登録です"
+
+#: class/class-workplace.php:430 class/class-workplace.php:571
+msgid "DEL"
+msgstr "消"
+
+#: class/class-workplace.php:460
+msgid "Date"
+msgstr "日"
+
+#: class/class-workplace.php:461
+msgid "Off"
+msgstr "休み"
+
+#: class/class-workplace.php:462
+msgid "Time"
+msgstr "時間"
+
+#: class/class-workplace.php:467 class/class-workplace.php:623
+#: class/class-workplace.php:827
+msgid "Update"
+msgstr "更新"
+
+#: class/class-workplace.php:473 class/class-workplace.php:629
+msgid "Permission denied."
+msgstr "アクセス権がありません"
+
+#: class/class-workplace.php:474
+msgid "Only a \"Staff\" user can edit here."
+msgstr "このページでは \"セラピスト\" ユーザーのみ編集操作が可能です。"
+
+#: class/class-workplace.php:750
+msgid "Attendance Manager"
+msgstr "Attendance Manager"
+
+#: class/class-workplace.php:750 class/class-workplace.php:751
+#: class/class-workplace.php:807 class/class-workplace.php:812
+msgid "Workplace Setting"
+msgstr "勤務先設定"
+
+#: class/class-workplace.php:767
+msgid "Attendance Manager settings"
+msgstr "Attendance Manager 設定"
+
+#: class/class-workplace.php:787
+msgid "Settings are updated"
+msgstr "更新されました"
+
+#: class/class-workplace.php:815
+msgid "Workplace List"
+msgstr "勤務先リスト"
+
+#: class/class-workplace.php:876 class/class-workplace.php:886
+msgid "Updates"
+msgstr "更新"
+
+#: class/class-workplace.php:880
+msgid "Refer to the newest version below."
+msgstr "最新版は以下をご参照ください。"
+
+#: class/class-workplace.php:890
+msgid "Feed not found"
+msgstr "フィードを取得できません"

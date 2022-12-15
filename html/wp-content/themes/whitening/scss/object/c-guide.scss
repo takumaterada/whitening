@@ -1,0 +1,84 @@
+.c-guide {
+  padding: 164px 16px;
+  @include mq("sp") {
+    padding: 124px 16px 0;
+  }
+}
+
+.c-guide__container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.c-guide__heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 76px;
+  text-align: center;
+  @include mq("sp") {
+    font-size: 24px;
+    margin-top: 60px;
+  }
+}
+
+.c-guide__img-group {
+  display: flex;
+  margin-top: 68px;
+}
+
+.c-guide__wrapper.--left {
+  max-width: 720px;
+  width: 100%;
+}
+
+.c-guide__wrapper.--right {
+  max-width: 720px;
+  width: 100%;
+}
+
+.c-guide__img {
+  width: 100%;
+}
+
+.c-guide__img-culmn {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-guide__info {
+  margin-top: 52px;
+}
+
+.c-guide__info-content {
+  width: 100%;
+  display: flex;
+  border-bottom: solid 1px;
+  align-items: center;
+  padding: 28px 0;
+}
+
+.c-guide__info-content.--bottom {
+  border-bottom: 0;
+}
+
+.c-guide__menu {
+  min-width: 320px;
+  font-size: 20px;
+  padding-left: 40px;
+  @include mq("sp") {
+    font-size: 14px;
+    padding-left: unset;
+    min-width: 100px;
+  }
+}
+
+.c-guide__text {
+  font-size: 20px;
+  @include mq("sp") {
+    font-size: 14px;
+  }
+}
+
+.c-guide__text.--accent {
+  color: #c48300;
+}

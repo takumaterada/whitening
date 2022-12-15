@@ -1,0 +1,27 @@
+.c-voice {
+  padding: 120px 16px 160px;
+  @include mq("sp") {
+    padding: 80px 16px;
+  }
+}
+
+.c-voice__container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.c-voice__title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.c-voice__content {
+  margin-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  @include mq("sp") {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,173 @@
+.c-home {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 164px 16px 240px;
+  @include mq("tab") {
+    padding: 124px 16px 0px;
+  }
+}
+
+.c-home__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+  @include mq("tab") {
+    display: unset;
+  }
+}
+
+.c-home__title--english {
+  font-size: 20px;
+  color: #c48300;
+  margin: 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.c-home__title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.c-home__img-group {
+  display: flex;
+  margin-right: 16px;
+  @include mq("tab") {
+    justify-content: space-around;
+    margin-top: 52px;
+  }
+}
+
+.c-home__wrapper {
+  max-width: 300px;
+  width: 100%;
+}
+
+.c-home__wrapper.--right {
+  margin-top: 120px;
+  margin-left: 32px;
+}
+
+.c-home__img {
+  width: 100%;
+}
+
+.c-home__text-area {
+  margin-top: 80px;
+  position: relative;
+}
+
+.c-home__bg-text {
+  color: #ebedef;
+  font-size: 120px;
+  font-weight: bold;
+  position: absolute;
+  top: 16%;
+  right: -4%;
+  z-index: 0;
+  text-align: end;
+  line-height: 1.5;
+  @include mq("tab") {
+    font-size: 80px;
+    top: 20%;
+    right: 12%;
+  }
+  @include mq("sp") {
+    font-size: 72px;
+    top: 20%;
+    right: 8%;
+  }
+}
+
+.c-home__catch {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+  @include mq("tab") {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 2.2;
+  }
+}
+
+.c-home__catch.--accent {
+  color: #c48300;
+}
+
+.c-home__description {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.7;
+  margin-top: 32px;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+  @include mq("tab") {
+    max-width: 360px;
+    width: 100%;
+    margin: 32px auto 0;
+    font-size: 16px;
+    line-height: 2.2;
+  }
+}
+
+.c-home__text {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.7;
+  margin-top: 56px;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+  @include mq("tab") {
+    max-width: 360px;
+    width: 100%;
+    margin: 32px auto 0;
+    font-size: 20px;
+    line-height: 2.2;
+  }
+}
+
+.c-home__price {
+  margin-top: 76px;
+  position: relative;
+  @include mq("tab") {
+    margin-top: 48px;
+  }
+}
+
+.c-home__circle {
+  width: 84px;
+  height: 84px;
+  border: 1px solid #909eb4; /* ←上下20pxのボーダー */
+  background-color: #f4f5f6;
+  border-radius: 50%;
+}
+
+.c-home__link {
+  font-size: 24px;
+  position: absolute;
+  top: 24px;
+  left: 48px;
+  display: block;
+}
+
+.c-home__note {
+  font-size: 12px;
+  text-align: end;
+  position: relative;
+  z-index: 1;
+  @include mq("tab") {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+  }
+}

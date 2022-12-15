@@ -18,6 +18,13 @@ $breakpoints: (
 }
 
 // brタグのクラス
+.tab-br {
+  display: none;
+  @include mq("tab") {
+    display: block;
+  }
+}
+
 .sp-br {
   display: none;
   @include mq("sp") {
@@ -26,7 +33,7 @@ $breakpoints: (
 }
 
 .pc-br {
-  @include mq("sp") {
+  @include mq("tab") {
     display: none;
   }
 }

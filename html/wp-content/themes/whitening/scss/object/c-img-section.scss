@@ -1,0 +1,84 @@
+.c-img-section.--man {
+  background-image: url(../images/man@2x.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 680px;
+  height: 100%;
+}
+
+.c-img-section.--woman {
+  background-image: url(../images/woman@2x.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 680px;
+  height: 100%;
+  @include mq("sp") {
+    background-position: 40% 50%;
+  }
+}
+
+.c-img-section__content {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 680px;
+}
+
+.c-img-section__text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  height: 100%;
+}
+
+.c-img-section__title {
+  font-size: 40px;
+  margin: 0;
+  font-weight: bold;
+  @include mq("sp") {
+    font-size: 24px;
+  }
+}
+
+.c-img-section__title.--right {
+  font-size: 40px;
+  display: flex;
+  justify-content: end;
+  color: #000000;
+  @include mq("sp") {
+    font-size: 24px;
+    justify-content: unset;
+    line-height: 1.8;
+    text-shadow: 1px 1px 1px white;
+  }
+}
+
+.c-img-section__title.--bottom {
+  font-size: 40px;
+  margin: 48px 0px 0px;
+  @include mq("sp") {
+    font-size: 24px;
+  }
+}
+
+.c-img-section__text {
+  font-size: 32px;
+  margin: 0;
+  line-height: 1.7;
+  margin-top: 40px;
+  @include mq("sp") {
+    font-size: 20px;
+  }
+}
+
+.c-img-section__note {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: end;
+  @include mq("sp") {
+    text-align: justify;
+  }
+}

@@ -1,0 +1,72 @@
+.c-radius-card {
+  max-width: 330px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.c-radius-card__content {
+  padding: 44px 16px;
+  text-align: center;
+  color: #3a3f48;
+  letter-spacing: 0.1em;
+}
+
+.c-radius-card__subtitle {
+  font-size: 14px;
+  color: #6c7e87;
+  font-weight: 600;
+  color: #6c7e87;
+}
+
+.c-radius-card__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.c-radius-card__price-info {
+  font-size: 20px;
+  font-weight: bold;
+  color: #c48300;
+  margin: 20px 0 10px;
+}
+
+.c-radius-card__price-info.--accent {
+  font-size: 16px;
+  color: #6c7e87;
+  color: #6c7e87;
+}
+
+.c-radius-card__summary {
+  color: #6c7e87;
+  font-size: 14px;
+}
+
+.c-radius-card__summary.--small {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.c-radius-card__description {
+  max-width: 220px;
+  margin: 10px auto 0;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.c-radius-card__description.--small {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.c-radius-card__text {
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.c-radius-card__text.--age {
+  text-align: end;
+}

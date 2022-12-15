@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1056 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 200px;
+        font-family: RyuminPr5-Heavy, A-OTF Ryumin Pr5;
+        font-weight: 800;
+        opacity: 0.687;
+      }
+
+      .cls-2 {
+        fill: #ffe2e2;
+      }
+    </style>
+  </defs>
+  <text id="THE_GIN" data-name="THE★GIN" class="cls-1" transform="translate(0 176)"><tspan x="0" y="0">THE</tspan><tspan class="cls-2" y="0">★</tspan><tspan y="0">GIN</tspan></text>
+</svg>

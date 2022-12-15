@@ -1,0 +1,72 @@
+.c-flow {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c-flow__title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.c-flow__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include mq("tab") {
+    flex-direction: column;
+    justify-content: unset;
+  }
+}
+
+.c-flow__wrapper {
+  max-width: 600px;
+  width: 100%;
+}
+
+.c-flow__progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 340px;
+  width: 100%;
+  @include mq("tab") {
+    flex-direction: column;
+    justify-content: unset;
+    margin-top: 32px;
+  }
+}
+
+.c-flow__progress.--bottom {
+  @include mq("tab") {
+    margin-top: 0;
+  }
+}
+
+.c-flow__border {
+  min-height: 60px;
+  width: 1px;
+  background-color: #ced5d9;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.c-flow__border.--sp {
+  display: none;
+  @include mq("tab") {
+    display: block;
+  }
+}
+
+.c-flow__number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #a7b2b7;
+  text-align: center;
+}
+
+.c-flow__text {
+  font-weight: bold;
+}

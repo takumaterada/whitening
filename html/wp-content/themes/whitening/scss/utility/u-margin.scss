@@ -10,6 +10,12 @@
   margin-top: 32px;
 }
 
+.u-mt-32.--sp {
+  @include mq("sp") {
+    margin-top: 32px;
+  }
+}
+
 .u-mt-48 {
   margin-top: 48px;
 }

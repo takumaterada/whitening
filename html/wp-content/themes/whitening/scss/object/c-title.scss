@@ -1,0 +1,18 @@
+.c-title {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0;
+  @include mq("sp") {
+    font-size: 24px;
+  }
+}
+
+.c-title.--english {
+  font-size: 20px;
+  color: #c48300;
+  margin: 0;
+  font-weight: 600;
+  text-align: center;
+}

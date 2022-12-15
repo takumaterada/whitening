@@ -1,0 +1,84 @@
+.c-header {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.c-header__logo-wrapper {
+  max-width: 380px;
+}
+
+.c-header__img {
+  width: 100%;
+  height: auto;
+}
+
+.c-header__info {
+  @include mq("sp") {
+    display: none;
+  }
+}
+
+.c-header__feature {
+  display: flex;
+  align-items: center;
+}
+.c-header__text-area {
+  margin-right: 32px;
+}
+
+.c-header__tel {
+  font-size: 20px;
+  margin: 0;
+  text-align: end;
+}
+
+.c-header__tel.--accent {
+  color: #c48300;
+}
+
+.c-header__businessday {
+  font-size: 12px;
+  margin: 0;
+}
+
+.c-header__icon-wrapper {
+  width: 36px;
+  height: 36px;
+}
+
+.c-header__icon-wrapper:nth-of-type(-n + 2) {
+  margin-right: 16px;
+}
+
+.c-header__icon {
+  display: flex;
+}
+
+.c-header__navi {
+}
+
+.c-header__navi-list {
+  display: flex;
+  text-align: end;
+  justify-content: end;
+}
+
+.c-header__navi-item {
+  text-decoration: none;
+}
+
+.c-header__navi-item:nth-of-type(-n + 3) {
+  margin-right: 32px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
