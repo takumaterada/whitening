@@ -33,9 +33,11 @@
   justify-content: space-around;
   align-items: center;
   margin-bottom: 80px;
-  @include mq("sp") {
+  width: 100%;
+  @include mq("tab") {
+    justify-content: unset;
     flex-direction: column;
-    margin-bottom: 0;
+    margin: 0 auto;
   }
 }
 
@@ -44,14 +46,14 @@
   font-weight: bold;
   line-height: 1.7;
   text-align: center;
-  @include mq("sp") {
+  @include mq("tab") {
     text-align: left;
   }
 }
 
 .c-price__text-area {
   max-width: 332px;
-  @include mq("sp") {
+  @include mq("tab") {
     max-width: unset;
     margin-top: 32px;
     margin-bottom: 32px;

@@ -4,10 +4,14 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 16px;
 }
 
 .c-header__logo-wrapper {
   max-width: 380px;
+  @include mq("sp") {
+    max-width: 245px;
+  }
 }
 
 .c-header__img {
@@ -16,7 +20,7 @@
 }
 
 .c-header__info {
-  @include mq("sp") {
+  @include mq("tab") {
     display: none;
   }
 }

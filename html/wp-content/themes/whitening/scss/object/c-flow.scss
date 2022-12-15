@@ -2,6 +2,9 @@
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  @include mq("sp") {
+    margin-top: 88px;
+  }
 }
 
 .c-flow__title {

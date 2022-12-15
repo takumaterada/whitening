@@ -22,7 +22,7 @@
       <div class="c-home__text-area">
         <p class="c-home__bg-text">白さ<br>眩しく<br>透き通る</p>
         <p class="c-home__catch"><span class="c-home__catch --accent">空いた時間</span>を<br class="tab-br">上手に使って、<br class="pc-br">歯を<br class="tab-br"><span class="c-home__catch --accent">ホワイトニング</span>しませんか</p>
-        <p class="c-home__description">東銀座、銀座、銀座一丁目の各駅から徒歩数分。<br>瀟洒なマンションの一室、完全個室タイプのお部屋で、<br class="pc-br">1回約45分、月1万円で何度でもご利用可能。</p>
+        <p class="c-home__description">東銀座、銀座、銀座一丁目の各駅から徒歩数分。<br>瀟洒なマンションの一室、完全個室タイプのお部屋で、<br class="pc-br">1回約30分*、月1万円で何度でもご利用可能。</p>
         <p class="c-home__text">高品質なオリジナルジェル、高出力の最新マシン、<br class="pc-br">経験豊富なスタッフによるサポートが、<br class="pc-br">あなたの歯をあなたらしく輝かせます。</p>
         <div class="c-home__price">
           <div class="c-home__circle"></div>
@@ -36,7 +36,7 @@
     <div class="c-img-section__content">
       <div class="c-img-section__text-area">
         <p class="c-img-section__title">銀座 de ホワイトニング</p>
-        <p class="c-img-section__text">月1万円で通い放題の<br>歯のホワイトニング個室サロン<br><br>1回30*分、セルフ型、当日予約OK</p>
+        <p class="c-img-section__text">月1万円で通い放題の<br>歯のホワイトニング個室サロン<br><br>1回30分*、セルフ型、当日予約OK</p>
         <p class="c-img-section__title --bottom">男性の方も多くご利用されています</p>
       </div>
     </div>
@@ -71,7 +71,7 @@
   </div>
   <div class="c-media">
     <div class="c-media__text-area">
-      <p class="c-media__heading">2つの<span class="c-media__heading --accent">光触媒</span>を配合したジェル、<br><span class="c-media__heading --accent">3種類</span>の<span class="c-media__heading --accent">照射光</span>が実現する<br>ハイクオリティ</p>
+      <p class="c-media__heading"><span class="c-media__heading --accent">2つ</span>の<span class="c-media__heading --accent">光触媒</span>を配合したジェル、<br class="pc-br"><span class="c-media__heading --accent">3種類</span>の<span class="c-media__heading --accent">照射光</span>が実現する<br>ハイクオリティ</p>
       <p class="c-media__text">研究開発を重ねた当店オリジナルジェル「プラチナムGE」には、酸化チタン、酸化タングステンを配合。<br>ジェルを塗った歯に、高出力65Wの最新マシンから2種類(青、赤、黄)のLED光を照射することで、2つの光触媒が高い相乗効果を生み出します。</p>
     </div>
     <div class="c-media__img-group">
@@ -243,8 +243,8 @@
         <p class="c-faq__answer">体に安全な無機化合物のジェルを使用しており、着色汚れを除去するものなので痛みは一切ございません。</p>
       </div>
       <div class="c-faq__text-area --mt">
-        <p class="c-faq__question">Q どのくらい白くなりますか??</p>
-        <p class="c-faq__answer">歯についてしまった着色汚れを落とすことで、歯本来の自然な白さに戻すことが可能です。<br>効果の出方には個人差があります。同時に歯垢除去、口臭予防、歯周病予防、コーティング効果も得られます。※神経を抜いて変色してしまっている、遺伝による色素沈着、テトラサイクリン抗生物質の副作用、フッ素症の変色などがある場合の歯は効果が期待できません。</p>
+        <p class="c-faq__question">Q ホワイトニング後の飲食制限はありますか？??</p>
+        <p class="c-faq__answer">施術後の飲食制限はありません。</p>
       </div>
       <div class="c-faq__text-area --mt">
         <p class="c-faq__question">Q どれくらい通うと白くなりますか？?</p>
@@ -256,21 +256,21 @@
     <div class="c-voice__container">
       <p class="c-voice__title">お客様の声</p>
       <div class="c-voice__content">
-        <div class="c-radius-card u-shadow">
+        <div class="c-radius-card u-shadow u-mr-32">
           <div class="c-radius-card__content">
             <p class="c-radius-card__text">会社が近いので、よく利用している。予定していた残業がなくなったときなど、当日予約できるので便利。施術時横になれるのも、体が休まりうれしい。</p>
             <p class="c-radius-card__text --age"><br><br>30代女性</p>
           </div>
         </div>
-        <div class="c-radius-card u-shadow">
+        <div class="c-radius-card u-shadow u-mr-32">
           <div class="c-radius-card__content">
             <p class="c-radius-card__text">結婚式を控え、友人の勧めもあり、通うようになった。歯科に行くよりリーズナブルで手軽。ウェディングドレスに似合う歯になったと思う。</p>
             <p class="c-radius-card__text --age"><br><br><br>20代女性</p>
           </div>
         </div>
-        <div class="c-radius-card u-shadow">
+        <div class="c-radius-card u-shadow u-mr-32">
           <div class="c-radius-card__content">
-            <p class="c-radius-card__text">中央区に住んでいて、銀座には映画、食事、買物等で行く機会が多い。<br>その前後や合間に利用できるので、ありがたい。</p>
+            <p class="c-radius-card__text">中央区に住んでいて、銀座には映画、食事、買物等で行く機会が多い。その前後や合間に利用できるので、ありがたい。</p>
             <p class="c-radius-card__text --age"><br><br>30代女性</p>
           </div>
         </div>
@@ -287,7 +287,7 @@
     <div class="c-price__container">
       <p class="c-title --english">System</p>
       <p class="c-title">料金システム</p>
-      <p class="c-price__heading">他のお客様とは顔を会わせない<span class="c-price__heading --accent">完全個室型</span><br><span class="c-price__heading --accent">人気</span>の<span class="c-price__heading --accent">最安プラン</span>をはじめ様々なコースをご用意しています</p>
+      <p class="c-price__heading">他のお客様とは顔を会わせない<span class="c-price__heading --accent">完全個室型</span><br><span class="c-price__heading --accent">人気</span>の<span class="c-price__heading --accent">最安プラン</span>をはじめさまざまなコースをご用意しています</p>
       <div class="c-price__content">
         <div class="c-radius-card">
           <div class="c-radius-card__content">
@@ -298,7 +298,7 @@
             <p class="c-radius-card__description">都内最安値で短期的に白く色味<br>キープまで可能<br><span class="c-radius-card__description --small">※12ヶ月継続必須コースとなります。当日ご登録いたしますのでクレジットカードをご持参ください。</p>
           </div>
         </div>
-        <div class="c-radius-card u-mt-32 --sp">
+        <div class="c-radius-card u-mt-32--tab">
           <div class="c-radius-card__content">
             <p class="c-radius-card__subtitle">お手軽</p>
             <p class="c-radius-card__title">ホワイトニングコース</p>
@@ -314,11 +314,52 @@
       <p class="c-price__description">当店では全部屋完全個室となりますので、芸能人、モデル、タレントさんにも多数ご利用いただいております。<br>お出迎えからお帰りまでスタッフ本人が行いますので、他のお客様と会うことがありませんので安心してお忍びでのご利用も可能です。</p>
     </div>
   </div>
+  <div class="c-attention">
+    <div class="c-attention__containder">
+      <div class="c-attention__content">
+        <p class="c-attention__heading">お支払い方法</p>
+        <p class="c-attention__text">お支払いは、現金またはクレジットカードでの<br>お支払い方法でお願いいたします。</p>
+        <div class="c-attention__wrapper">
+          <img src="<?php bloginfo('template_url'); ?>/images/credit-card@2x.png" alt="部屋" class="c-attention__img">
+        </div>
+      </div>
+      <div class="c-attention__content">
+        <p class="c-attention__heading">注意事項</p>
+        <ul class="c-attention__list">
+          <li class="c-attention__list-item">・掲出料金は全て税抜表記です。</li>
+          <li class="c-attention__list-item">・ジェルや化粧品使用に伴う皮膚トラブル等の責任は負いかねます。</li>
+          <li class="c-attention__list-item">・店内はベランダを含め全室禁煙となります。</li>
+          <li class="c-attention__list-item">・お客様都合による当日キャンセルはコース料金100%のキャンセル料又はご利用一回分の消化が発生いたしますのでご了承ください。（ご予約の変更又はキャンセルは前日の営業時間内にご連絡ください）</li>
+          <li class="c-attention__list-item">・ご利用開始時間より１０分を過ぎてもご連絡がない場合はキャンセル扱いとさせていただきます。</li>
+        </ul>
+      </div>
+      <div class="c-attention__content">
+        <p class="c-attention__heading">安心してご利用いただくために<br>当店からのお願い</p>
+        <p class="c-attention__description --mt">皆様に安心してご来店いただくために、次の事項に当てはまる方のご来店はご遠慮いただいております。</p>
+        <ul class="c-attention__list">
+          <li class="c-attention__list-item">・心臓疾患・伝染病・感染症（水虫等）にかかっている方</li>
+          <li class="c-attention__list-item">・発熱されている方</li>
+          <li class="c-attention__list-item">・お酒をたくさん飲まれている方</li>
+          <li class="c-attention__list-item">・同業者、薬物使用者、暴力団関係者、またはそれに付随する方</li>
+          <li class="c-attention__list-item">・下記の禁止事項をお守りいただけない方</li>
+        </ul>
+      </div>
+      <div class="c-attention__content">
+        <p class="c-attention__heading">禁止事項</p>
+        <ul class="c-attention__list --bottom">
+          <li class="c-attention__list-item">・スタッフへの接触行為、暴言や脅迫、その他スタッフが嫌がる行為</li>
+          <li class="c-attention__list-item">・スタッフに対するスカウトや引き抜き行為</li>
+          <li class="c-attention__list-item">・各種カメラ機器による撮影又は盗撮・盗聴等の行為</li>
+        </ul>
+        <p class="c-attention__description">上記に該当した場合はスタッフの判断により施術を終了させていただきます。<br>また、上記の禁止事項以外でも当店がふさわしくないと判断した場合には即刻施術を中止させていただき、途中退店していただく場合がございます。<br>尚、その場合の料金の返金は致しかねますので予めご了承ください。<br>当店はセルフホワイトニングサロンです。医療診断、治療などの医療行為をする病院や診療所ではございません。</p>
+      </div>
+    </div>
+  </div>
   <div class="c-guide">
     <div class="c-guide__container">
       <p class="c-title --english">Guide</p>
       <p class="c-title">サロン案内</p>
-      <p class="c-guide__heading">月曜～土曜の10時～22時、空いた時間にお気軽にお越しください</p>
+      <p class="c-guide__heading">月曜～土曜10時～22時、日曜10時～19時、ご予約のうえお越しください。</p>
       <div class="c-guide__img-group">
         <div class="c-guide__wrapper --left">
           <img src="<?php bloginfo('template_url'); ?>/images/guide1@2x.png" alt="部屋" class="c-guide__img">
@@ -351,7 +392,15 @@
         </div>
         <div class="c-guide__info-content --bottom">
           <p class="c-guide__menu">予約方法</p>
-          <p class="c-guide__text">ホットペッパービューティーからご予約承っております。</p>
+          <p class="c-guide__text">ホットペッパービューティーからご予約を承っております。</p>
+        </div>
+      </div>
+      <div class="c-guide__img-culmn--tab">
+        <div class="c-guide__wrapper --right">
+          <img src="<?php bloginfo('template_url'); ?>/images/guide2@2x.png" alt="ディフューザー" class="c-guide__img">
+        </div>
+        <div class="c-guide__wrapper --right">
+          <img src="<?php bloginfo('template_url'); ?>/images/guide3@2x.png" alt="入り口" class="c-guide__img">
         </div>
       </div>
     </div>

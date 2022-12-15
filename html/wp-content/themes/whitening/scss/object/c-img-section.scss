@@ -4,6 +4,7 @@
   background-position: center;
   min-height: 680px;
   height: 100%;
+  padding: 0 16px;
 }
 
 .c-img-section.--woman {
@@ -12,6 +13,7 @@
   background-position: center;
   min-height: 680px;
   height: 100%;
+  padding: 0 16px;
   @include mq("sp") {
     background-position: 40% 50%;
   }

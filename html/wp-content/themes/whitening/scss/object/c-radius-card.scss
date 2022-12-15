@@ -1,8 +1,13 @@
 .c-radius-card {
   max-width: 330px;
+  min-width: 330px;
   width: 100%;
   background-color: white;
   border-radius: 10px;
+}
+
+.c-radius-card.--last {
+  margin-right: 0;
 }
 
 .c-radius-card__content {

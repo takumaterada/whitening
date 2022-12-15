@@ -1,5 +1,8 @@
 .c-guide {
   padding: 164px 16px;
+  @include mq("tab") {
+    padding: 124px 16px 40px;
+  }
   @include mq("sp") {
     padding: 124px 16px 0;
   }
@@ -23,17 +26,26 @@
 
 .c-guide__img-group {
   display: flex;
+  justify-content: center;
   margin-top: 68px;
 }
 
 .c-guide__wrapper.--left {
   max-width: 720px;
+  min-width: 450px;
   width: 100%;
+  @include mq("sp") {
+    min-width: unset;
+  }
 }
 
 .c-guide__wrapper.--right {
   max-width: 720px;
+  min-width: 540px;
   width: 100%;
+  @include mq("sp") {
+    min-width: unset;
+  }
 }
 
 .c-guide__img {
@@ -43,10 +55,25 @@
 .c-guide__img-culmn {
   display: flex;
   flex-direction: column;
+  @include mq("tab") {
+    display: none;
+  }
+}
+
+.c-guide__img-culmn--tab {
+  display: none;
+  @include mq("tab") {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .c-guide__info {
   margin-top: 52px;
+  @include mq("tab") {
+    margin-top: 32px;
+  }
 }
 
 .c-guide__info-content {

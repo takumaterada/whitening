@@ -1,0 +1,70 @@
+.c-attention {
+  background-color: #c4cbcf;
+  padding: 128px 16px;
+  @include mq("sp") {
+    padding: 96px 16px 88px;
+  }
+}
+
+.c-attention__container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c-attention__heading {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  @include mq("sp") {
+    font-size: 24px;
+  }
+}
+
+.c-attention__text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 48px;
+  text-align: center;
+  @include mq("sp") {
+    font-size: 16px;
+  }
+}
+
+.c-attention__wrapper {
+  max-width: 400px;
+  width: 100%;
+  margin: 36px auto 72px;
+  @include mq("sp") {
+    margin: 36px auto 64px;
+  }
+}
+
+.c-attention__img {
+  width: 100%;
+}
+
+.c-attention__list {
+  line-height: 1.7;
+  max-width: 800px;
+  width: 100%;
+  margin: 48px auto 76px;
+  @include mq("sp") {
+    margin: 36px auto 72px;
+  }
+}
+
+.c-attention__list.--bottom {
+  margin-bottom: 0;
+}
+
+.c-attention__description {
+  font-weight: 600;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.c-attention__description.--mt {
+  margin-top: 36px;
+}

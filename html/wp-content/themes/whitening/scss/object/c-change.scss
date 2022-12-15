@@ -21,11 +21,23 @@
 .c-change__wrapper.--left {
   max-width: 842px;
   width: 100%;
+  @include mq("tab") {
+    max-width: 540px;
+  }
+  @include mq("sp") {
+    max-width: 354px;
+  }
 }
 
 .c-change__wrapper.--right {
   max-width: 437px;
   width: 100%;
+  @include mq("tab") {
+    max-width: 540px;
+  }
+  @include mq("sp") {
+    max-width: 354px;
+  }
 }
 
 .c-change__img {

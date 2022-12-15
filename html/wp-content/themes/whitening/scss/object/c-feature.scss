@@ -1,8 +1,10 @@
 .c-feature {
   margin-top: 132px;
+  margin-bottom: 124px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 16px;
 }
 
 .c-feature__title {
@@ -13,10 +15,11 @@
 
 .c-feature__container {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-top: 108px;
+  padding-top: 44px;
+  overflow-x: scroll;
 }
 
 .c-feature__container.--bottom {
@@ -45,6 +48,7 @@
   position: absolute;
   top: -16%;
   left: 28%;
+  z-index: 10;
 }
 
 .c-feature__card-check {
@@ -80,4 +84,7 @@
 
 .c-feature__card.--hidden {
   visibility: hidden;
+  @include mq("sp") {
+    display: none;
+  }
 }

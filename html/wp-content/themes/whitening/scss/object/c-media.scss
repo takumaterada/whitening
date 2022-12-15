@@ -10,6 +10,13 @@
   }
 }
 
+.c-media__text-area {
+  margin-right: 16px;
+  @include mq("tab") {
+    margin-right: unset;
+  }
+}
+
 .c-media__heading {
   font-size: 40px;
   line-height: 1.7;
@@ -52,6 +59,9 @@
 .c-media__wrapper.--right {
   margin-top: 120px;
   margin-left: 32px;
+  @include mq("sp") {
+    margin-top: 60px;
+  }
 }
 
 .c-media__img {
