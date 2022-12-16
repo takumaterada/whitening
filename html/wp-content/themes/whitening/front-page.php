@@ -38,7 +38,7 @@
       <div class="c-img-section__text-area">
         <p class="c-img-section__title">銀座 de ホワイトニング</p>
         <p class="c-img-section__text">月1万円で通い放題の<br>歯のホワイトニング個室サロン<br><br>1回30分*、セルフ型、当日予約OK</p>
-        <p class="c-img-section__title --bottom">男性の方も多くご利用されています</p>
+        <p class="c-img-section__title --bottom">男性の方も多く利用されています</p>
       </div>
     </div>
     <p class="c-img-section__note">*メニューにより時間は異なりますので、詳細は店舗にてご確認ください。</p>
@@ -73,7 +73,7 @@
   <div class="c-media">
     <div class="c-media__container">
       <div class="c-media__text-area">
-        <p class="c-media__heading"><span class="c-media__heading --accent">2つ</span>の<span class="c-media__heading --accent">光触媒</span>を配合したジェル、<br class="pc-br"><span class="c-media__heading --accent">3種類</span>の<span class="c-media__heading --accent">照射光</span>が実現する<br class="pc-br">ハイクオリティ</p>
+        <p class="c-media__heading"><span class="c-media__heading --accent">2つ</span>の<span class="c-media__heading --accent">成分</span>を配合したジェル、<br class="pc-br"><span class="c-media__heading --accent">3種類</span>の<span class="c-media__heading --accent">照射光</span>が実現する<br class="pc-br">ハイクオリティ</p>
         <p class="c-media__text">研究開発を重ねた当店オリジナルジェル「プラチナムGE」には、酸化チタン、酸化タングステンを配合。<br>ジェルを塗った歯に、高出力65Wの最新マシンから2種類(青、赤、黄)のLED光を照射することで、2つの光触媒が高い相乗効果を生み出します。</p>
       </div>
       <div class="c-media__img-group">
@@ -292,8 +292,8 @@
   </div>
   <div id="price" class="c-price">
     <div class="c-price__container">
-      <p class="c-title --english">System</p>
-      <p class="c-title">料金システム</p>
+      <p class="c-title --english --pale">System</p>
+      <p class="c-title --white">料金システム</p>
       <p class="c-price__heading">他のお客様とは顔を会わせない<span class="c-price__heading --accent">完全個室型</span><br><span class="c-price__heading --accent">人気</span>の<span class="c-price__heading --accent">最安プラン</span>をはじめさまざまなコースをご用意しています</p>
       <div class="c-price__content">
         <div class="c-radius-card">
@@ -318,7 +318,7 @@
           <p class="c-price__text">他にも、お客様のライフスタイルに合わせたさまざまなコースや、初回限定キャンペーンもご用意しています。</p>
         </div>
       </div>
-      <p class="c-price__description">当店では全部屋完全個室となりますので、芸能人、モデル、タレントさんにも多数ご利用いただいております。<br>お出迎えからお帰りまでスタッフ本人が行いますので、他のお客様と会うことがありませんので安心してお忍びでのご利用も可能です。</p>
+      <p class="c-price__description">当店では全部屋完全個室となりますので、芸能人、モデル、タレントの方にも多数ご利用いただいております。<br>お出迎えからお帰りまでスタッフ本人が行いますので、他のお客様と会うことがありませんので安心してお忍びでのご利用も可能です。</p>
     </div>
   </div>
   <div class="c-attention">
@@ -383,7 +383,7 @@
       <div class="c-guide__info">
         <div class="c-guide__info-content">
           <p class="c-guide__menu">住所</p>
-          <p class="c-guide__text --accent">東京都中央区銀座3-11-19 / <a href="#c-modal">店舗地図、東銀座駅からのご案内（動画・静止画）はコチラ</a></p>
+          <p class="c-guide__text --accent">東京都中央区銀座3-11-19 / <a href="#c-modal" class="c-guide__link">店舗地図、東銀座駅からのご案内（動画・静止画）はコチラ</a></p>
         </div>
         <div class="c-guide__info-content">
           <p class="c-guide__menu">電話番号</p>

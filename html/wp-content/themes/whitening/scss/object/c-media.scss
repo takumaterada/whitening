@@ -43,10 +43,12 @@
 }
 
 .c-media__text {
+  margin-top: 32px;
   max-width: 612px;
   line-height: 1.7;
   font-size: 24px;
   font-weight: bold;
+  color: #3a3f48;
   @include mq("sp") {
     font-size: 20px;
     margin-top: 36px;

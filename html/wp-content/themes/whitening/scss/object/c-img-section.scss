@@ -5,6 +5,7 @@
   min-height: 680px;
   height: 100%;
   padding: 0 16px;
+  text-shadow: 1px 1px 1px rgba(126, 137, 154, 1);
 }
 
 .c-img-section.--woman {
@@ -14,6 +15,7 @@
   min-height: 680px;
   height: 100%;
   padding: 0 16px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
   @include mq("sp") {
     background-position: 40% 50%;
   }

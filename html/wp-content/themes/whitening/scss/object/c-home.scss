@@ -103,6 +103,7 @@
   line-height: 1.7;
   position: relative;
   z-index: 1;
+  color: #3a3f48;
   @include mq("tab") {
     max-width: 540px;
     width: 100%;
@@ -224,6 +225,7 @@
   top: 24px;
   left: 48px;
   display: block;
+  color: #3a3f48;
 }
 
 .c-home__note {

@@ -1,5 +1,6 @@
 .c-guide {
   padding: 164px 16px;
+  color: #3a3f48;
   @include mq("tab") {
     padding: 124px 0px 0px;
   }
@@ -114,4 +115,8 @@
 
 .c-guide__text.--accent {
   color: #c48300;
+}
+
+.c-guide__link {
+  border-bottom: #c48300 solid 1px;
 }
