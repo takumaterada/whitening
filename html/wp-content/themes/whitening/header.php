@@ -58,9 +58,9 @@
 		<ul class="drawer-nav__menu drawer-menu">
 			<li class="drawer-menu-list"><a href="#home">Home</a></li>
 			<li class="drawer-menu-list"><a href="#reason">Reason</a></li>
-			<li class="drawer-menu-list"><a href="#price">Syste</a></li>
+			<li class="drawer-menu-list"><a href="#price">System</a></li>
 			<li class="drawer-menu-list"><a href="#guide">Guide</a></li>
-			<p class="drawer-menu-tel">tel.<span class="drawer-menu-tel --accent">03-4531-2559</span></p>
+			<p class="drawer-menu-tel">tel.<a href="tel:03-4531-2559" class="drawer-menu-tel --accent">03-4531-2559</a></p>
 			<p class="drawer-menu-worktime">月曜日～土曜日　10時～22時(最終受付21時) <br>日曜日　10時～19時(最終受付18時) </p>
 			<div class="c-header__icon drawer-menue-icon">
 				<a href="https://line.me/R/ti/p/%40hwl1380m" target=_blank class="c-header__icon-wrapper">
