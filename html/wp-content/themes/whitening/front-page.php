@@ -420,10 +420,7 @@
       <div class="c-modal__contents">
         <a href="#!" class="c-modal__close">✕</a>
         <div class="c-modal__content">
-          ここにテキストや画像を設置します。<br><br>
-          テキストも見切れません。テキストも見切れません。テキストも見切れません。テキストも見切れません。テキストも見切れません。テキストも見切れません。テキストも見切れません。<br><br><br><br>
-          内容に応じでスクロールも出ます。<br><br><br><br><br>
-          終わり。
+          グーグル・マップと道案内の動画と画像が入ります。<br><br><br><br><br>
         </div>
       </div>
     </div>
