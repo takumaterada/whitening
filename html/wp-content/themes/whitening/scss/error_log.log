@@ -1,0 +1,3 @@
+12/16/22 1:37:02: style.scss - Undefined variable $base-color: ./js-animation/drawer.scss on line 160, at column 3
+Call Stack:
+#0 import ./js-animation/drawer.scss style.scss on line 17

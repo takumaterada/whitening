@@ -11,13 +11,13 @@
       <h1 class="c-fv__title">銀座で<br>月１万円で通い放題な<br>歯のホワイトニング<br class="sp-br">個室サロン</h1>
     </div>
   </div>
-  <div class="c-home">
+  <div id="home" class="c-home">
     <p class="c-title --english">Home</p>
     <p class="c-title">当店について</p>
     <div class="c-home__container">
       <div class="c-home__img-group">
-        <div class="c-home__wrapper"><img src="<?php bloginfo('template_url'); ?>/images/chemicals@2x.jpg" alt="器具" class="c-home__img"></div>
-        <div class="c-home__wrapper --right"><img src="<?php bloginfo('template_url'); ?>/images/instrument@2x.jpg" alt="薬品" class="c-home__img"></div>
+        <div class="c-home__wrapper"><img src="<?php bloginfo('template_url'); ?>/images/instrument@2x.png" alt="器具" class="c-home__img"></div>
+        <div class="c-home__wrapper --right"><img src="<?php bloginfo('template_url'); ?>/images/chemical@2x.png" alt="薬品" class="c-home__img"></div>
       </div>
       <div class="c-home__text-area">
         <p class="c-home__bg-text">白さ<br>眩しく<br>透き通る</p>
@@ -49,7 +49,7 @@
       </div>
     </div>
   </div>
-  <div class="c-reason">
+  <div id="reason" class="c-reason">
     <p class="c-title --english">Reason</p>
     <p class="c-title">選ばれる理由</p>
     <p class="c-reason__text">歯を本来の明るさに戻していく<span class="c-reason__text --accent">セルフホワイトニング</span><br>オリジナルジェルと最新マシンで、当店ならではの<span class="c-reason__text --accent">効果を実現</span></p>
@@ -77,7 +77,7 @@
       </div>
       <div class="c-media__img-group">
         <div class="c-media__wrapper"><img src="<?php bloginfo('template_url'); ?>/images/light@2x.jpg" alt="光器具" class="c-media__img"></div>
-        <div class="c-media__wrapper --right"><img src="<?php bloginfo('template_url'); ?>/images/chemicals@2x.jpg" alt="薬品" class="c-media__img"></div>
+        <div class="c-media__wrapper --right"><img src="<?php bloginfo('template_url'); ?>/images/chemical@2x.png" alt="薬品" class="c-media__img"></div>
       </div>
     </div>
   </div>
@@ -359,7 +359,7 @@
       </div>
     </div>
   </div>
-  <div class="c-guide">
+  <div id="guide" class="c-guide">
     <div class="c-guide__container">
       <p class="c-title --english">Guide</p>
       <p class="c-title">サロン案内</p>
@@ -410,6 +410,7 @@
     </div>
   </div>
 
+  <!--- モーダル -->
   <div class="c-modal" id="c-modal">
     <a href="#!" class="overlay"></a>
     <div class="c-modal__wrapper">

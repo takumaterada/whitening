@@ -1,24 +1,25 @@
 .c-header {
   width: 100%;
-  border-bottom: solid 1px;
+  border-bottom: solid 1px #707070;
   position: fixed;
   top: 0;
   left: 0;
-  padding: 16px;
+  padding: 12px;
   background-color: #f4f5f8;
-  z-index: 50;
+  z-index: 100;
 }
 
 .c-header__container {
   max-width: 1440px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 0 auto;
 }
 
 .c-header__logo-wrapper {
   max-width: 380px;
-  @include mq("sp") {
+  @include mq("pc-small") {
     max-width: 245px;
   }
 }
@@ -29,27 +30,30 @@
 }
 
 .c-header__info {
-  @include mq("tab") {
-    display: none;
-  }
 }
 
 .c-header__feature {
   display: flex;
   align-items: center;
+  @include mq("tab") {
+    display: none;
+  }
 }
 .c-header__text-area {
   margin-right: 32px;
+  display: flex;
+  align-items: center;
 }
 
 .c-header__tel {
   font-size: 20px;
   margin: 0;
-  text-align: end;
+  margin-right: 24px;
 }
 
 .c-header__tel.--accent {
   color: #c48300;
+  margin-right: unset;
 }
 
 .c-header__businessday {
@@ -62,6 +66,12 @@
   height: 36px;
 }
 
+.c-header__icon-wrapper--arrow {
+  width: 36px;
+  height: 36px;
+  margin-right: 4px;
+}
+
 .c-header__icon-wrapper:nth-of-type(-n + 2) {
   margin-right: 16px;
 }
@@ -71,12 +81,16 @@
 }
 
 .c-header__navi {
+  @include mq("tab") {
+    display: none;
+  }
 }
 
 .c-header__navi-list {
   display: flex;
   text-align: end;
   justify-content: end;
+  margin-top: 20px;
 }
 
 .c-header__navi-item {
@@ -85,6 +99,13 @@
 
 .c-header__navi-item:nth-of-type(-n + 3) {
   margin-right: 32px;
+}
+
+.c-header__icon-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c48300;
+  margin-right: 4px;
 }
 
 li {

@@ -23,6 +23,7 @@
   align-items: center;
   @include mq("tab") {
     font-size: 54px;
+    padding-left: 16px;
   }
   @include mq("sp") {
     font-size: 32px;

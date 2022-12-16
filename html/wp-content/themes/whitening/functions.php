@@ -72,5 +72,12 @@ add_filter( 'document_title_separator', 'wp_document_title_separator' );
 function tokos_scripts() {
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/css/style.css', array(), _S_VERSION, 'all' );
 	wp_enqueue_script( 'viewport', get_template_directory_uri() . '/js/viewport.js', array(), '1.0.0', true );
+
+	wp_deregister_script('jquery');
+	wp_enqueue_script( 'jquery', 'https://code.jquery.com/jquery-3.6.0.min.js', array(), '3.6.0');
+	wp_enqueue_script( 'drawer-iscroll', 'https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js', array('jquery'), '5.2.0', true );
+	wp_enqueue_script( 'drawer', 'https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js', array('drawer-iscroll'), '3.2.2', true );
+	wp_enqueue_style( 'drawer-style', 'https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css', array(), '3.2.2', 'all' );
+	wp_enqueue_script( 'my-drawer', get_template_directory_uri() . '/js/drawer.js', array('drawer-iscroll'), '1.0.0', true );
 }
 add_action( 'wp_enqueue_scripts', 'tokos_scripts' );
