@@ -24,9 +24,10 @@
         <p class="c-home__catch"><span class="c-home__catch --accent">空いた時間</span>を<br class="tab-br">上手に使って、<br class="pc-br">歯を<br class="tab-br"><span class="c-home__catch --accent">ホワイトニング</span>しませんか</p>
         <p class="c-home__description">東銀座、銀座、銀座一丁目の各駅から徒歩数分。<br>瀟洒なマンションの一室、完全個室タイプのお部屋で、<br class="pc-br">1回約30分*、月1万円で何度でもご利用可能。</p>
         <p class="c-home__text">高品質なオリジナルジェル、高出力の最新マシン、<br class="pc-br">経験豊富なスタッフによるサポートが、<br class="pc-br">あなたの歯をあなたらしく輝かせます。</p>
-        <div class="c-home__price">
-          <div class="c-home__circle"></div>
-          <a href="#price" class="c-home__link">料金システムへ</a>
+        <div class="c-home__blank">
+          <a href="#price" class="c-home__price">
+            <p class="c-home__link">料金システムへ</p>
+          </a>
         </div>
         <p class="c-home__note">*メニューにより時間は異なりますので、詳細は店舗にてご確認ください。</p>
       </div>
@@ -238,21 +239,23 @@
   <div class="c-faq">
     <div class="c-faq__content">
       <p class="c-faq__title">よくいただくご質問</p>
-      <div class="c-faq__text-area">
-        <p class="c-faq__question">Q 歯に塗るジェルは歯へのダメージはないのでしょうか?</p>
-        <p class="c-faq__answer">当店のジェルは研究開発会社と共に研究を重ねた、よりホワイトニング効果の高いジェルになります。<br>歯磨きジェルとして製造許可をとっているので人体には無害で安全です。</p>
-      </div>
-      <div class="c-faq__text-area --mt">
-        <p class="c-faq__question">Q ホワイトニングの際に痛みはありますか?</p>
-        <p class="c-faq__answer">体に安全な無機化合物のジェルを使用しており、着色汚れを除去するものなので痛みは一切ございません。</p>
-      </div>
-      <div class="c-faq__text-area --mt">
-        <p class="c-faq__question">Q ホワイトニング後の飲食制限はありますか？??</p>
-        <p class="c-faq__answer">施術後の飲食制限はありません。</p>
-      </div>
-      <div class="c-faq__text-area --mt">
-        <p class="c-faq__question">Q どれくらい通うと白くなりますか？?</p>
-        <p class="c-faq__answer">効果にはどうしても個人差がありますが、20分照射で明るくなる方が多いです。<br>その後回数を重ねると更に明るくなる方がほとんどです。最初は3,4回集中的に行っていただくとより効果的に自然な白さに戻っていきます。<br>喫煙や色の濃い飲食が日常的に多い方は少し時間がかかる場合があります。</p>
+      <div class="c-faq__text-box">
+        <div class="c-faq__text-area">
+          <p class="c-faq__question">Q 歯に塗るジェルは歯へのダメージはないのでしょうか?</p>
+          <p class="c-faq__answer">当店のジェルは研究開発会社と共に研究を重ねた、よりホワイトニング効果の高いジェルになります。<br>歯磨きジェルとして製造許可をとっているので人体には無害で安全です。</p>
+        </div>
+        <div class="c-faq__text-area --mt">
+          <p class="c-faq__question">Q ホワイトニングの際に痛みはありますか?</p>
+          <p class="c-faq__answer">体に安全な無機化合物のジェルを使用しており、着色汚れを除去するものなので痛みは一切ございません。</p>
+        </div>
+        <div class="c-faq__text-area --mt">
+          <p class="c-faq__question">Q ホワイトニング後の飲食制限はありますか？??</p>
+          <p class="c-faq__answer">施術後の飲食制限はありません。</p>
+        </div>
+        <div class="c-faq__text-area --mt">
+          <p class="c-faq__question">Q どれくらい通うと白くなりますか？?</p>
+          <p class="c-faq__answer">効果にはどうしても個人差がありますが、20分照射で明るくなる方が多いです。<br>その後回数を重ねると更に明るくなる方がほとんどです。最初は3,4回集中的に行っていただくとより効果的に自然な白さに戻っていきます。<br>喫煙や色の濃い飲食が日常的に多い方は少し時間がかかる場合があります。</p>
+        </div>
       </div>
     </div>
   </div>

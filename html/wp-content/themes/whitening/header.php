@@ -21,27 +21,27 @@
 						<p class="c-header__businessday">月曜日～土曜日　10時～22時(最終受付21時) <br>日曜日　10時～19時(最終受付18時) </p>
 					</div>
 					<div class="c-header__icon">
-						<a href="#" class="c-header__icon-wrapper">
+						<a href="https://line.me/R/ti/p/%40hwl1380m" target=_blank class="c-header__icon-wrapper">
 							<img src="<?php bloginfo('template_url'); ?>/images/LINE_icon@2x.png" alt="LINE" class="c-header__img">
 						</a>
-						<a href="#" class="c-header__icon-wrapper">
+						<a href="https://www.instagram.com/ginzadewhitening/?hl=ja" target=_blank class="c-header__icon-wrapper">
 							<img src="<?php bloginfo('template_url'); ?>/images/instagram_icon@2x.png" alt="インスタグラム" class="c-header__img">
 						</a>
 						<p class="c-header__icon-text">ご予約は<br>コチラ</p>
 						<div class="c-header__icon-wrapper--arrow">
 							<img src="<?php bloginfo('template_url'); ?>/images/arrow@2x.png" alt="矢印" class="c-header__img">
 						</div>
-						<a href="#" class="c-header__icon-wrapper">
+						<a href="https://beauty.hotpepper.jp/kr/slnH000508060/" target=_blank class="c-header__icon-wrapper">
 							<img src="<?php bloginfo('template_url'); ?>/images/hotpepper@2x.png" alt="ホットペッパー" class="c-header__img">
 						</a>
 					</div>
 				</div>
 				<div class="c-header__navi">
 					<ul class="c-header__navi-list">
-						<li class="c-header__navi-item"><a href="#home">Home</a></li>
-						<li class="c-header__navi-item"><a href="#reason">Reason</a></li>
-						<li class="c-header__navi-item"><a href="#price">System</a></li>
-						<li class="c-header__navi-item"><a href="#guide">Guide</a></li>
+						<li><a href="#home" class="c-header__navi-item">Home</a></li>
+						<li><a href="#reason" class="c-header__navi-item">Reason</a></li>
+						<li><a href="#price" class="c-header__navi-item">System</a></li>
+						<li><a href="#guide" class="c-header__navi-item">Guide</a></li>
 					</ul>
 				</div>
 				<div class="drawer drawer--right drawer-color">
@@ -63,17 +63,17 @@
 			<p class="drawer-menu-tel">tel.<span class="drawer-menu-tel --accent">03-4531-2559</span></p>
 			<p class="drawer-menu-worktime">月曜日～土曜日　10時～22時(最終受付21時) <br>日曜日　10時～19時(最終受付18時) </p>
 			<div class="c-header__icon drawer-menue-icon">
-				<a href="#" class="c-header__icon-wrapper">
+				<a href="https://line.me/R/ti/p/%40hwl1380m" target=_blank class="c-header__icon-wrapper">
 					<img src="<?php bloginfo('template_url'); ?>/images/LINE_icon@2x.png" alt="LINE" class="c-header__img">
 				</a>
-				<a href="#" class="c-header__icon-wrapper">
+				<a href="https://www.instagram.com/ginzadewhitening/?hl=ja" target=_blank class="c-header__icon-wrapper">
 					<img src="<?php bloginfo('template_url'); ?>/images/instagram_icon@2x.png" alt="インスタグラム" class="c-header__img">
 				</a>
 				<p class="c-header__icon-text">ご予約は<br>コチラ</p>
 				<div class="c-header__icon-wrapper--arrow">
 					<img src="<?php bloginfo('template_url'); ?>/images/arrow@2x.png" alt="矢印" class="c-header__img">
 				</div>
-				<a href="#" class="c-header__icon-wrapper">
+				<a href="https://beauty.hotpepper.jp/kr/slnH000508060/" target=_blank class="c-header__icon-wrapper">
 					<img src="<?php bloginfo('template_url'); ?>/images/hotpepper@2x.png" alt="ホットペッパー" class="c-header__img">
 				</a>
 			</div>

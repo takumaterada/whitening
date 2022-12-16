@@ -53,6 +53,9 @@
 
 .c-price__text-area {
   max-width: 332px;
+  @include mq("pc-small") {
+    max-width: 280px;
+  }
   @include mq("tab") {
     max-width: unset;
     margin-top: 32px;

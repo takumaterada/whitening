@@ -95,6 +95,7 @@
 
 .c-header__navi-item {
   text-decoration: none;
+  padding: 10px 20px;
 }
 
 .c-header__navi-item:nth-of-type(-n + 3) {
@@ -106,6 +107,37 @@
   font-weight: 600;
   color: #c48300;
   margin-right: 4px;
+}
+
+.c-header__navi-list li a {
+  /*線の基点とするためrelativeを指定*/
+  position: relative;
+}
+
+.c-header__navi-list li a::after {
+  content: "";
+  /*絶対配置で線の位置を決める*/
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  /*線の形状*/
+  width: 80%;
+  height: 2px;
+  background: #c4cbcf;
+  /*アニメーションの指定*/
+  transition: all 0.3s;
+  transform: scale(0, 1); /*X方向0、Y方向1*/
+  transform-origin: left top; /*左上基点*/
+}
+
+/*現在地とhoverの設定*/
+.c-header__navi-list li.current a::after,
+.c-header__navi-list li a:hover::after {
+  transform: scale(1, 1); /*X方向にスケール拡大*/
+}
+
+.c-header__navi-item:hover {
+  color: #6c7e87;
 }
 
 li {

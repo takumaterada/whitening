@@ -52,7 +52,7 @@
     justify-content: unset;
     text-shadow: 1px 1px 1px white;
   }
-  @include mq("sp") {
+  @include mq("xsp") {
     font-size: 24px;
   }
 }

@@ -79,7 +79,7 @@
   font-size: 120px;
   font-weight: bold;
   position: absolute;
-  top: 16%;
+  top: 20%;
   right: -4%;
   z-index: 0;
   text-align: end;
@@ -171,23 +171,51 @@
   }
 }
 
+.c-home__blank {
+  min-height: 132px;
+}
+
 .c-home__price {
-  margin-top: 76px;
+  max-width: 256px;
+  margin-top: 60px;
   position: relative;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  display: block;
   @include mq("tab") {
-    max-width: 224px;
     margin: 0 auto;
     width: 100%;
     margin-top: 48px;
   }
 }
 
-.c-home__circle {
+.c-home__price:hover {
+  color: white;
+}
+
+.c-home__price:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border: solid 1px #909eb4;
+  border-radius: 50px;
   width: 84px;
   height: 84px;
-  border: 1px solid #909eb4; /* ←上下20pxのボーダー */
-  background-color: #f4f5f6;
-  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.c-home__price:hover:before {
+  max-width: 256px;
+  width: 100%;
+  background: #6c7e87;
+  opacity: 0.9;
+}
+
+.c-home__price:active {
+  transform: scale(0.95);
 }
 
 .c-home__link {
@@ -207,7 +235,6 @@
   @include mq("tab") {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
     text-align: justify;
   }
 }
