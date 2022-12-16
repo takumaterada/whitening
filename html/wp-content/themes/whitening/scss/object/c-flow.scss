@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  @include mq("pc-small") {
+  @include mq("pc-sm") {
     flex-direction: column;
     justify-content: unset;
   }
@@ -29,7 +29,7 @@
   justify-content: space-between;
   align-items: center;
   margin-left: 16px;
-  @include mq("pc-small") {
+  @include mq("pc-sm") {
     margin-top: 40px;
   }
   @include mq("tab") {

@@ -89,7 +89,7 @@
 
 .c-feature__card.--hidden {
   visibility: hidden;
-  @include mq("pc-small") {
+  @include mq("pc-sm") {
     display: none;
   }
 }

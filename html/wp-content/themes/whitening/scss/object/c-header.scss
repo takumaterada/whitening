@@ -19,7 +19,7 @@
 
 .c-header__logo-wrapper {
   max-width: 380px;
-  @include mq("pc-small") {
+  @include mq("pc-sm") {
     max-width: 245px;
   }
 }

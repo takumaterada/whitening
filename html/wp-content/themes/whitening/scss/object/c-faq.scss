@@ -59,7 +59,7 @@
   font-size: 20px;
   font-weight: bold;
   margin: 48px auto 0;
-  @include mq("pc-small") {
+  @include mq("pc-sm") {
     padding-left: 24px;
   }
   @include mq("sp") {
