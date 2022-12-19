@@ -6,16 +6,19 @@
   left: 0;
   z-index: 200;
 }
+
 .c-modal:not(:target) {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s, visibility 0.5s;
 }
+
 .c-modal:target {
   opacity: 1;
   visibility: visible;
   transition: opacity 0.5s, visibility 0.5s;
 }
+
 .c-modal .overlay {
   display: block;
   width: 100%;
@@ -26,11 +29,10 @@
   top: 0;
   left: 0;
 }
+
 .c-modal__wrapper {
-  width: 100%;
-  max-width: 1000px;
-  height: 100%;
-  max-height: 700px;
+  width: 90%;
+  height: 90%;
   background-color: #fff;
   position: absolute;
   top: 50%;
@@ -40,19 +42,83 @@
     max-width: 90vw;
   }
 }
+
 .c-modal__contents {
   overflow: auto;
+  overscroll-behavior-y: none;
+  max-width: 1080px;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
   position: relative;
+  margin: 0 auto;
+  padding: 120px 16px;
+  @include mq("sp") {
+    padding: 40px 16px;
+  }
 }
-.c-modal__content {
-  margin: 25px;
-}
+
 .c-modal__close {
   position: absolute;
   top: 5px;
   right: 10px;
   text-decoration: none;
+}
+
+.c-modal__img-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 90px 40px;
+  justify-content: space-between;
+  @include mq("sp") {
+    gap: 32px 0px;
+  }
+}
+
+.c-modal__media {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-modal__img-wrapper {
+  max-width: 300px;
+
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.c-modal__img-caption {
+  font-weight: 600;
+}
+
+.c-modal__map-wrapper {
+  max-width: 1080px;
+  width: 100%;
+  margin: 100px auto 64px;
+  @include mq("sp") {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+}
+
+.c-modal__map-img {
+  width: 100%;
+  min-height: 380px;
+}
+
+.c-modal__video-wrapper {
+  max-height: 608px;
+  width: 100%;
+  height: 100%;
+}
+
+.c-modal__video {
+  width: 100%;
+  height: 608px;
+  @include mq("sp") {
+    height: 100%;
+  }
 }

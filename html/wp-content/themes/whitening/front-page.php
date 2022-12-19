@@ -420,7 +420,50 @@
       <div class="c-modal__contents">
         <a href="#!" class="c-modal__close">✕</a>
         <div class="c-modal__content">
-          グーグル・マップと道案内の動画と画像が入ります。<br><br><br><br><br>
+          <div class="c-modal__img-group">
+            <div class="c-modal__media">
+              <div class="c-modal__img-wrapper">
+                <img src="<?php bloginfo('template_url'); ?>/images/modal1@2x.png" alt="入り口" class="c-guide__img">
+              </div>
+              <p class="c-modal__img-caption">地下鉄・東銀座駅3番出口を地上に出て</p>
+            </div>
+            <div class="c-modal__media">
+              <div class="c-modal__img-wrapper">
+                <img src="<?php bloginfo('template_url'); ?>/images/modal2@2x.png" alt="入り口" class="c-guide__img">
+              </div>
+              <p class="c-modal__img-caption">歌舞伎座の前、晴海通りを銀座方面へ</p>
+            </div>
+            <div class="c-modal__media">
+              <div class="c-modal__img-wrapper">
+                <img src="<?php bloginfo('template_url'); ?>/images/modal3@2x.png" alt="入り口" class="c-guide__img">
+              </div>
+              <p class="c-modal__img-caption">昭和通りとの三原橋交差点を右折（プロントがある角）</p>
+            </div>
+            <div class="c-modal__media">
+              <div class="c-modal__img-wrapper">
+                <img src="<?php bloginfo('template_url'); ?>/images/modal4@2x.png" alt="入り口" class="c-guide__img">
+              </div>
+              <p class="c-modal__img-caption">70ｍほど直進して</p>
+            </div>
+            <div class="c-modal__media">
+              <div class="c-modal__img-wrapper">
+                <img src="<?php bloginfo('template_url'); ?>/images/modal5@2x.png" alt="入り口" class="c-guide__img">
+              </div>
+              <p class="c-modal__img-caption">1Fにファミリーマートがあるビルに</p>
+            </div>
+            <div class="c-modal__media">
+              <div class="c-modal__img-wrapper">
+                <img src="<?php bloginfo('template_url'); ?>/images/modal6@2x.png" alt="入り口" class="c-guide__img">
+              </div>
+              <p class="c-modal__img-caption">当店はございます</p>
+            </div>
+          </div>
+          <div class="c-modal__map-wrapper">
+            <iframe class="c-modal__map-img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2386466683715!2d139.76682271578665!3d35.671125380196756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be12040a0bf%3A0x3f96964e647d2062!2z44CSMTA0LTAwNjEg5p2x5Lqs6YO95Lit5aSu5Yy66YqA5bqn77yT5LiB55uu77yR77yR4oiS77yR77yZ!5e0!3m2!1sja!2sjp!4v1671429405682!5m2!1sja!2sjp"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="c-modal__video-wrapper">
+            <video controls src="<?php bloginfo('template_url'); ?>/images/map.mp4" class="c-modal__video" height="600px"></video>
+          </div>
         </div>
       </div>
     </div>
