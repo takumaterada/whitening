@@ -23,7 +23,7 @@
         <p class="c-home__bg-text">白さ<br>眩しく<br>透き通る</p>
         <p class="c-home__catch"><span class="c-home__catch --accent">空いた時間</span>を<br class="tab-br">上手に使って、<br class="pc-br">歯を<br class="tab-br"><span class="c-home__catch --accent">ホワイトニング</span>しませんか</p>
         <p class="c-home__description">東銀座、銀座、銀座一丁目の各駅から徒歩数分。<br>瀟洒なマンションの一室、完全個室タイプのお部屋で、<br class="pc-br">1回約30分*、月1万円で何度でもご利用可能。</p>
-        <p class="c-home__text">高品質なオリジナルジェル、高出力の最新マシン、<br class="pc-br">経験豊富なスタッフによるサポートが、<br class="pc-br">あなたの歯をあなたらしく輝かせます。</p>
+        <p class="c-home__text">高品質なオリジナルジェル、高出力の最新マシン、<br class="pc-br">経験豊富なスタッフによるサポートで、<br class="pc-br">あなたの歯をあなたらしく輝かせます。</p>
         <div class="c-home__blank">
           <a href="#price" class="c-home__price">
             <p class="c-home__link">料金システムへ</p>
@@ -74,7 +74,7 @@
     <div class="c-media__container">
       <div class="c-media__text-area">
         <p class="c-media__heading"><span class="c-media__heading --accent">2つ</span>の<span class="c-media__heading --accent">成分</span>を配合したジェル、<br class="pc-br"><span class="c-media__heading --accent">3種類</span>の<span class="c-media__heading --accent">照射光</span>が実現する<br class="pc-br">ハイクオリティ</p>
-        <p class="c-media__text">研究開発を重ねた当店オリジナルジェル「プラチナムGE」には、酸化チタン、酸化タングステンを配合。<br>ジェルを塗った歯に、高出力65Wの最新マシンから2種類(青、赤、黄)のLED光を照射することで、2つの光触媒が高い相乗効果を生み出します。</p>
+        <p class="c-media__text">研究開発を重ねた当店オリジナルジェル「プラチナムGE」には、酸化チタン、酸化タングステンを配合。<br>ジェルを塗った歯に、高出力65Wの最新マシンから3種類(青、赤、黄)のLED光を照射することで、高い相乗効果を生み出します。</p>
       </div>
       <div class="c-media__img-group">
         <div class="c-media__wrapper"><img src="<?php bloginfo('template_url'); ?>/images/light@2x.jpg" alt="光器具" class="c-media__img"></div>
@@ -365,7 +365,7 @@
   <div id="guide" class="c-guide">
     <div class="c-guide__container">
       <p class="c-title --english">Guide</p>
-      <p class="c-title">サロン案内</p>
+      <p class="c-title">店舗案内</p>
       <p class="c-guide__heading">月曜～土曜10時～22時、日曜10時～19時、ご予約のうえお越しください。</p>
       <div class="c-guide__img-group">
         <div class="c-guide__wrapper --left">
